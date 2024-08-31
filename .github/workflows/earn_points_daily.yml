@@ -20,7 +20,6 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          node-version: 20
           python-version: '3.12.5'
           cache: 'pip'
       - name: Install dependencies
